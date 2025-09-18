@@ -7,7 +7,6 @@ on:
     branches: ["main"]
 jobs:
   frontend_build_lint_test_job:
-  runs-on: ubuntu-latest
   permissions:
     # Required to checkout the code
     contents: read
